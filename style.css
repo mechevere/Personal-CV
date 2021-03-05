@@ -38,3 +38,11 @@ body {
       box-shadow: 0;
     }
   }
+
+  .personal-info-header {
+    display: block;
+    color: #fff;
+    background-color: #5995DA;
+    padding: 20px 0;
+    justify-content: center;
+  }
