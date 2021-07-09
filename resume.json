@@ -2,157 +2,178 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mateo Echeverri",
-    "label": "Programmer",
+    "label": "Data Scientist",
     "image": "",
     "email": "mate.echeverri@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "http://richardhendricks.example.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "phone": "+57 3167414936",
+    "url": "",
+    "summary": "I'm an Engineering Physicist. I'm creative, curious and I have excellent analytical skills. I'm passionate about science, technology and the way in which we can use them to solve a great diversity of society's hardest problems. I like to learn about different things, and I have the aspiration to become a polymath. I'm interested in economy, history, literature, and evolutionary biology.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Calle 13 43E 48",
+      "postalCode": "Medellín 050021",
+      "city": "Medellín",
+      "countryCode": "CO",
+      "region": "Antioquia"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "matech5",
+        "url": "twitter.com/matech5"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.example.com/dandymusicnl"
+        "network": "Github",
+        "username": "mechevere",
+        "url": "github.com/mechevere"
       }
     ]
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.example.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "Rappi",
+      "location": "LATAM",
+      "description": "Top 10 YC startup. On demand delivery and finacial services for Latin America",
+      "position": "Data Scientist",
+      "url": "rappi.com",
+      "startDate": "2020-11-09",
+      "endDate": "2021-07-09",
+      "summary": "I'm a data scientist for Rappi, a delivery app and the largest startup in LATAM. I work along with a team focused on the success of more than 150.000 partner brands across 9 Latin American countries. In this role I work as a consultant enabling the decision making process to be more data driven.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "name": "Protección - SURA Asset Managment",
+      "location": "Colombia",
+      "description": "Colombian branch of the biggest pension fun conglomerate in Latin America",
+      "position": "Data Scientist",
+      "url": "proteccion.com",
+      "startDate": "2019-05-06",
+      "endDate": "2020-11-06",
+      "summary": "Worked as a data scientist for a prominent pension fund in Colombia. In this role I have polished my technical skills, while developing a strong capacity for interacting with business stakeholders interested on implementing analytics and machine learning capabilities. Specifically, I worked with  the center of operations and services, developing models that allows to increase the knowledge of our clients, and the efficiency of our operations. Also worked along with actuaries developing a machine learning model used on the pricing of an insurance police worth $250MM USD a year.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+      ]
+    },
+    {
+      "name": "DAPI",
+      "location": "Colombia",
+      "description": "Start-up that offers end to end implementation of automation projects based on Robotic Process Automation and Artificial Intelligence",
+      "position": "Intelligent Automation Consultant",
+      "url": "proteccion.com",
+      "startDate": "2018-11-26",
+      "endDate": "2019-05-03",
+      "summary": "I worked on fullstack development of a serverless AWS based web platform for managing the Robotic Proccess Automation development between our team an the client. I also had responsibilities on designing methodologies for the company's project management and the sales pipeline.",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "Globant",
+      "location": "Colombia",
+      "description": "Latin American company focused on software develpment and digital transformation consulting for global clients.",
+      "position": "iOS Developer",
+      "url": "globant.com",
+      "startDate": "2017-07-26",
+      "endDate": "2018-11-23",
+      "summary": "I worked developing apps for Apple's iOS operating system. On my role at the company I was involved on the development of massive customer facing applications for important clients such as The Walt Disney Company and Carnival Cruise Line. From my experience here, I enjoyed being part of teams with people from different places around the world and to have worked under agile methodologies.",
+      "highlights": [
+      ]
+    },
+    {
+      "name": "EAFIT University",
+      "location": "Colombia",
+      "description": "Applied optics research group from one of the top research universities in Colombia",
+      "position": "Reseach Asiistant",
+      "url": "eafit.edu.co",
+      "startDate": "2016-06-09",
+      "endDate": "2016-12-17",
+      "summary": "I was involved as a research assistant on the applied optics group on EAFIT University. I was in charge of supporting the development of experiments and the acquisition and analysis of data, specifically for different lighting systems that were being studied. I also had the responsibility of developing some electronic instrumentation systems that where needed on the laboratory.",
+      "highlights": [
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
+      "institution": "EAFIT University",
+      "url": "eafit.edu.co",
+      "area": "IEngineering Physics",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
+      "startDate": "2014-01-24",
+      "endDate": "2019-12-12",
+      "score": "4.17/5.00",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
       ]
     }
   ],
   "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
   ],
   "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Data Science",
+      "level": "Advanced",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Clustering",
+        "Regression",
+        "Statistics"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Phython",
+      "level": "Advanced",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Pandas",
+        "sk-learn",
+        "Flask"
       ]
-    }
+    },
+    {
+      "name": "SQL",
+      "level": "Advanced",
+      "keywords": [
+        "Big Query",
+        "Snowflake",
+        "Window functions"
+      ]
+    },
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "C2"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Sports",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Swimming",
+        "Bouldering"
       ]
     }
   ],
   "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "name": "Object recognition from unmanead aerial vehicles",
+      "description": "I developed a model for detection of vehicles from video footage taken by an unmanned aerial vehicle. The model was a convolutional neural network deployed on the edge (a constrained hardware environment).",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
       ],
       "keywords": [
-        "GoogleMaps",
-        "Chrome Extension",
-        "Javascript"
+        "Object recognition",
+        "Deep Learning",
+        "Image proccessing"
       ],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "url": "missdirection.example.com",
+      "startDate": "2019-06-12",
+      "endDate": "2019-11-20",
+      "url": "",
       "roles": [
-        "Team lead",
-        "Designer"
       ],
-      "entity": "Smoogle",
+      "entity": "Colombian Air Force",
       "type": "application"
     }
   ],
