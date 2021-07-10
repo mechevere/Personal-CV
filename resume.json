@@ -5,8 +5,7 @@
     "label": "Data Scientist",
     "image": "",
     "email": "mate.echeverri@gmail.com",
-    "phone": "+57 3167414936",
-    "url": "",
+    "phone": "+573167414936",
     "summary": "I'm an Engineering Physicist. I'm creative, curious and I have excellent analytical skills. I'm passionate about science, technology and the way in which we can use them to solve a great diversity of society's hardest problems. I like to learn about different things, and I have the aspiration to become a polymath. I'm interested in economy, history, literature, and evolutionary biology.",
     "location": {
       "address": "Calle 13 43E 48",
@@ -19,94 +18,86 @@
       {
         "network": "Twitter",
         "username": "matech5",
-        "url": "twitter.com/matech5"
+        "url": "https://www.twitter.com/matech5"
       },
       {
         "network": "Github",
         "username": "mechevere",
-        "url": "github.com/mechevere"
+        "url": "https://www.github.com/mechevere"
       }
     ]
   },
   "work": [
     {
-      "name": "Rappi",
+      "company": "Rappi",
       "location": "LATAM",
-      "description": "Top 10 YC startup. On demand delivery and finacial services for Latin America",
+      "description": "Top 10 YC startup. On demand delivery and financial services for Latin America",
       "position": "Data Scientist",
-      "url": "rappi.com",
+      "url": "https://www.rappi.com",
       "startDate": "2020-11-09",
       "endDate": "2021-07-09",
-      "summary": "I'm a data scientist for Rappi, a delivery app and the largest startup in LATAM. I work along with a team focused on the success of more than 150.000 partner brands across 9 Latin American countries. In this role I work as a consultant enabling the decision making process to be more data driven.",
-      "highlights": [
-      ]
+      "summary": "I'm a data scientist for Rappi, the largest delivery startup in LATAM. I work along with a team focused on the success of more than 150.000 partner brands across 9 Latin American countries. In this role I work as a consultant enabling the decision making process to be more data driven.",
+      "highlights": []
     },
     {
-      "name": "Protección - SURA Asset Managment",
+      "company": "Protección - SURA Asset Management",
       "location": "Colombia",
       "description": "Colombian branch of the biggest pension fun conglomerate in Latin America",
       "position": "Data Scientist",
-      "url": "proteccion.com",
+      "url": "https://www.proteccion.com",
       "startDate": "2019-05-06",
       "endDate": "2020-11-06",
       "summary": "Worked as a data scientist for a prominent pension fund in Colombia. In this role I have polished my technical skills, while developing a strong capacity for interacting with business stakeholders interested on implementing analytics and machine learning capabilities. Specifically, I worked with  the center of operations and services, developing models that allows to increase the knowledge of our clients, and the efficiency of our operations. Also worked along with actuaries developing a machine learning model used on the pricing of an insurance police worth $250MM USD a year.",
-      "highlights": [
-      ]
+      "highlights": []
     },
     {
-      "name": "DAPI",
+      "company": "DAPI",
       "location": "Colombia",
       "description": "Start-up that offers end to end implementation of automation projects based on Robotic Process Automation and Artificial Intelligence",
       "position": "Intelligent Automation Consultant",
-      "url": "proteccion.com",
+      "url": "https://www.linkedin.com/company/digital-americas-dapi/",
       "startDate": "2018-11-26",
       "endDate": "2019-05-03",
-      "summary": "I worked on fullstack development of a serverless AWS based web platform for managing the Robotic Proccess Automation development between our team an the client. I also had responsibilities on designing methodologies for the company's project management and the sales pipeline.",
-      "highlights": [
-      ]
+      "summary": "I worked on fullstack development of a serverless AWS based web platform for managing the Robotic Process Automation development between our team and the client. I also had responsibilities on designing methodologies for the company's project management and the sales pipeline.",
+      "highlights": []
     },
     {
-      "name": "Globant",
+      "company": "Globant",
       "location": "Colombia",
-      "description": "Latin American company focused on software develpment and digital transformation consulting for global clients.",
+      "description": "Latin American company focused on software development and digital transformation consulting for global clients.",
       "position": "iOS Developer",
-      "url": "globant.com",
+      "url": "https://www.globant.com",
       "startDate": "2017-07-26",
       "endDate": "2018-11-23",
       "summary": "I worked developing apps for Apple's iOS operating system. On my role at the company I was involved on the development of massive customer facing applications for important clients such as The Walt Disney Company and Carnival Cruise Line. From my experience here, I enjoyed being part of teams with people from different places around the world and to have worked under agile methodologies.",
-      "highlights": [
-      ]
+      "highlights": []
     },
     {
-      "name": "EAFIT University",
+      "company": "EAFIT University",
       "location": "Colombia",
       "description": "Applied optics research group from one of the top research universities in Colombia",
-      "position": "Reseach Asiistant",
-      "url": "eafit.edu.co",
+      "position": "Research Assistant",
+      "url": "https://www.eafit.edu.co",
       "startDate": "2016-06-09",
       "endDate": "2016-12-17",
       "summary": "I was involved as a research assistant on the applied optics group on EAFIT University. I was in charge of supporting the development of experiments and the acquisition and analysis of data, specifically for different lighting systems that were being studied. I also had the responsibility of developing some electronic instrumentation systems that where needed on the laboratory.",
-      "highlights": [
-      ]
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "EAFIT University",
-      "url": "eafit.edu.co",
-      "area": "IEngineering Physics",
+      "url": "https://www.eafit.edu.co",
+      "area": "Engineering Physics",
       "studyType": "Bachelor",
       "startDate": "2014-01-24",
       "endDate": "2019-12-12",
       "score": "4.17/5.00",
-      "courses": [
-      ]
+      "courses": []
     }
   ],
-  "awards": [
-  ],
-  "publications": [
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
       "name": "Data Science",
@@ -118,7 +109,7 @@
       ]
     },
     {
-      "name": "Phython",
+      "name": "Python",
       "level": "Advanced",
       "keywords": [
         "Pandas",
@@ -134,7 +125,7 @@
         "Snowflake",
         "Window functions"
       ]
-    },
+    }
   ],
   "languages": [
     {
@@ -155,24 +146,20 @@
       ]
     }
   ],
-  "references": [
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Object recognition from unmanead aerial vehicles",
+      "name": "Object recognition from unmanned aerial vehicles",
       "description": "I developed a model for detection of vehicles from video footage taken by an unmanned aerial vehicle. The model was a convolutional neural network deployed on the edge (a constrained hardware environment).",
-      "highlights": [
-      ],
+      "highlights": [],
       "keywords": [
         "Object recognition",
         "Deep Learning",
-        "Image proccessing"
+        "Image processing"
       ],
       "startDate": "2019-06-12",
       "endDate": "2019-11-20",
-      "url": "",
-      "roles": [
-      ],
+      "roles": [],
       "entity": "Colombian Air Force",
       "type": "application"
     }
