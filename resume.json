@@ -2,17 +2,17 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Mateo Echeverri",
-    "label": "Data Scientist",
+    "label": "Product Analyst",
     "image": "",
     "email": "mate.echeverri@gmail.com",
-    "phone": "+573167414936",
+    "phone": "+491622179117",
     "summary": "I'm an Engineering Physicist. I'm creative, curious and I have excellent analytical skills. I'm passionate about science, technology and the way in which we can use them to solve a great diversity of society's hardest problems. I like to learn about different things, and I have the aspiration to become a polymath. I'm interested in economy, history, literature, and evolutionary biology.",
     "location": {
-      "address": "Calle 13 43E 48",
-      "postalCode": "Medellín 050021",
-      "city": "Medellín",
-      "countryCode": "CO",
-      "region": "Antioquia"
+      "address": "Brunnenstraße 180",
+      "postalCode": "10119",
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
     },
     "profiles": [
       {
@@ -28,6 +28,17 @@
     ]
   },
   "work": [
+    {
+      "company": "Delivery Hero",
+      "location": "Berlin, Germany",
+      "description": "The biggest food delivery apps conglomerate in the world",
+      "position": "Product Analyst",
+      "url": "https://www.deliveryhero.com/",
+      "startDate": "2021-12-01",
+      "highlights": [
+        "Causal modelling for different interventions in the marketplace"
+      ]
+    },
     {
       "company": "Rappi",
       "location": "LATAM",
@@ -158,7 +169,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "C2"
+      "fluency": "Native Speaker"
     },
     {
       "language": "Spanish",
@@ -175,24 +186,9 @@
     }
   ],
   "references": [],
-  "projects": [
-    {
-      "name": "Object recognition from unmanned aerial vehicles",
-      "description": "I developed a model for detection of vehicles from video footage taken by an unmanned aerial vehicle. The model was a convolutional neural network deployed on the edge (a constrained hardware environment).",
-      "highlights": [],
-      "keywords": [
-        "Object recognition",
-        "Deep Learning",
-        "Image processing"
-      ],
-      "startDate": "2019-06-12",
-      "endDate": "2019-11-20",
-      "roles": [],
-      "entity": "Colombian Air Force",
-      "type": "application"
-    }
-  ],
+  "projects": [],
   "meta": {
+    "theme": "paper",
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
     "lastModified": "2017-12-24T15:53:00"
