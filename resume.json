@@ -6,7 +6,7 @@
     "image": "",
     "email": "mate.echeverri@gmail.com",
     "phone": "+491622179117",
-    "summary": "I'm an Engineering Physicist. I'm creative, curious and I have excellent analytical skills. I'm passionate about science, technology and the way in which we can use them to solve a great diversity of society's hardest problems. I like to learn about different things, and I have the aspiration to become a polymath. I'm interested in economy, history, literature, and evolutionary biology.",
+    "summary": "Engineering Physicist turned Data Scientist and Product Analyst with a passion for leveraging data to drive business impact. Experienced in causal modeling, A/B testing, and statistical analysis, with a strong track record of optimizing marketplace dynamics and product decisions. Adept at bridging the gap between business strategy and data science, working with large-scale datasets to uncover insights and drive actionable outcomes. Always eager to learn, innovate, and tackle complex challenges at the intersection of technology, economics, and human behavior.",
     "location": {
       "address": "Brunnenstraße 180",
       "postalCode": "10119",
@@ -16,9 +16,8 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "matech5",
-        "url": "https://www.twitter.com/matech5"
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/mateo-echeverri/"
       },
       {
         "network": "Github",
@@ -36,7 +35,12 @@
       "url": "https://www.deliveryhero.com/",
       "startDate": "2021-12-01",
       "highlights": [
-        "Causal modelling for different interventions in the marketplace"
+        "Evaluated 110+ experiments, driving an incremental GMV impact of ~€42M",
+        "Enabled reliable concurrent experiments, quadrupling experimentation velocity within the search team.",
+        "Developed a quantitative framework to estimate financial opportunities, influencing the 2025 search product strategy.",
+        "Built a common data layer for performance dashboards & A/B test evaluations, enhancing data coherence and self-serve capabilities.",
+        "Led workshops and knowledge-sharing sessions for leadership, product teams, and stakeholders.",
+        "Causal modelling for different interventions in the marketplace",
       ]
     },
     {
@@ -50,7 +54,7 @@
       "highlights": [
         "Top 10 YC startup. On demand delivery and financial services for Latin America",
         "Worked with data from more than 150.000 partner brands and 10.000.000 users across 9 Latin American countries",
-        "Crafted a new metric for measuring if a new brand would be successful in the marketplace.",
+        "Crafted a new metric for measuring if a new vendors would be successful in the marketplace.",
         "Lead an effort to implement the data side of a methodology for putting analysis on the data warehouse in a productive setting, to be accessed from external systems (inverse ETL).",
         "Worked as a bridge between the business and product teams, helping brainstorm features for different products and running data analysis for prioritizing them.",
         "Modeled the impact that different promotions on the marketplace had on important output metrics, using methods to proximate causality inference with observational data.",
