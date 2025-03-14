@@ -29,9 +29,9 @@
   },
   "work": [
     {
-      "company": "Delivery Hero",
+      "name": "Delivery Hero",
       "location": "Berlin, Germany",
-      "description": "The biggest food delivery apps conglomerate in the world",
+      "summary": "The biggest food delivery apps conglomerate in the world",
       "position": "Product Analyst",
       "url": "https://www.deliveryhero.com/",
       "startDate": "2021-12-01",
@@ -45,9 +45,9 @@
       ]
     },
     {
-      "company": "Rappi",
+      "name": "Rappi",
       "location": "LATAM",
-      "description": "Top 10 YC startup. On demand delivery and financial services for Latin America",
+      "summary": "Top 10 YC startup. On demand delivery and financial services for Latin America",
       "position": "Data Scientist",
       "url": "https://www.rappi.com",
       "startDate": "2020-11-09",
@@ -63,9 +63,9 @@
       ]
     },
     {
-      "company": "Protección - SURA Asset Management",
+      "name": "Protección - SURA Asset Management",
       "location": "Colombia",
-      "description": "Colombian branch of the biggest pension fund conglomerate in Latin America",
+      "summary": "Colombian branch of the biggest pension fund conglomerate in Latin America",
       "position": "Data Scientist",
       "url": "https://www.proteccion.com",
       "startDate": "2019-05-06",
@@ -80,25 +80,9 @@
       ]
     },
     {
-      "company": "DAPI",
+      "name": "Globant",
       "location": "Colombia",
-      "description": "Start-up that offers end to end implementation of automation projects based on Robotic Process Automation and Artificial Intelligence",
-      "position": "Intelligent Automation Consultant",
-      "url": "https://www.linkedin.com/company/digital-americas-dapi/",
-      "startDate": "2018-11-26",
-      "endDate": "2019-05-03",
-      "highlights": [
-        "Startup focused on providing Robotic Process Automation (RPA) development for remote clients.",
-        "End to end implementation (full stack development) of features for a RPA project management platform.",
-        "Implemented app features in a serverless stack, using AWS AppSync (GraphQL) and AWS DocumentDB",
-        "Helped define the project management and software engineering practices for the company.",
-        "Helped to build the sales pipeline for selling RPA development projects."
-      ]
-    },
-    {
-      "company": "Globant",
-      "location": "Colombia",
-      "description": "Latin American company focused on software development and digital transformation consulting for global clients.",
+      "summary": "Software development and digital transformation consulting for global clients.",
       "position": "iOS Developer",
       "url": "https://www.globant.com",
       "startDate": "2017-07-26",
@@ -112,9 +96,9 @@
       ]
     },
     {
-      "company": "EAFIT University",
+      "name": "EAFIT University",
       "location": "Colombia",
-      "description": "Applied optics research group from one of the top research universities in Colombia",
+      "summary": "Applied optics research group from one of the top research universities in Colombia",
       "position": "Research Assistant",
       "url": "https://www.eafit.edu.co",
       "startDate": "2016-06-09",
