@@ -22,10 +22,10 @@ jobs:
         run: npm install resumed jsonresume-theme-onepage-plus
 
       - name: Run command to generate HTML
-        run: npx resumed render resume.json --theme jsonresume-theme-onepage-plus > output.html  # Replace with actual command
+        run: npx resumed render resume.json --theme jsonresume-theme-onepage-plus
 
       - name: Upload generated HTML file
         uses: actions/upload-artifact@v4
         with:
           name: generated-html
-          path: output.html
+          path: resume.html
