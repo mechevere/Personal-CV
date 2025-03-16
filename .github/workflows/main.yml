@@ -3,7 +3,7 @@ name: Generate HTML with Node.js
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   generate-html:
