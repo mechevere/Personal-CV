@@ -121,35 +121,37 @@
   ],
   "awards": [],
   "publications": [],
-  "skills": [
-    {
-      "name": "Data Science",
-      "level": "Advanced",
-      "keywords": [
-        "Clustering",
-        "Regression",
-        "Statistics"
-      ]
-    },
-    {
-      "name": "Python",
-      "level": "Advanced",
-      "keywords": [
-        "Pandas",
-        "sk-learn",
-        "Flask"
-      ]
-    },
-    {
-      "name": "SQL",
-      "level": "Advanced",
-      "keywords": [
-        "Big Query",
-        "Snowflake",
-        "Window functions"
-      ]
-    }
-  ],
+"skills": [
+  {
+    "name": "Product Data Science",
+    "level": "Highly proficient",
+    "keywords": [
+      "A/B Testing",
+      "Statistical Analysis",
+      "Experimentation"
+    ]
+  },
+  {
+    "name": "SQL & data warehousing",
+    "level": "Highly proficient",
+    "keywords": [
+      "BigQuery",
+      "Snowflake",
+      "Airflow",
+      "dbt"
+    ]
+  }
+  {
+    "name": "Machine Learning",
+    "level": "Proficient",
+    "keywords": [
+      "scikit-learn",
+      "Prophet",
+      "fastText",
+      "Flask",
+    ]
+  }
+]
   "languages": [
     {
       "language": "English",
@@ -165,7 +167,8 @@
       "name": "Sports",
       "keywords": [
         "Swimming",
-        "Bouldering"
+        "Bouldering",
+        "Sport climbing"
       ]
     }
   ],
