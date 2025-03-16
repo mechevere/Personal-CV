@@ -140,7 +140,7 @@
       "Airflow",
       "dbt"
     ]
-  }
+  },
   {
     "name": "Machine Learning",
     "level": "Proficient",
@@ -148,10 +148,10 @@
       "scikit-learn",
       "Prophet",
       "fastText",
-      "Flask",
+      "Flask"
     ]
   }
-]
+],
   "languages": [
     {
       "language": "English",
