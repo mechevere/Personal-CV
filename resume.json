@@ -41,7 +41,7 @@
         "Developed a quantitative framework to estimate financial opportunities, influencing the 2025 search product strategy.",
         "Built a common data layer for performance dashboards & A/B test evaluations, enhancing data coherence and self-serve capabilities.",
         "Led workshops and knowledge-sharing sessions for leadership, product teams, and stakeholders.",
-        "Causal modelling for different interventions in the marketplace"
+        "Causal modelling for different interventions in the marketplace that could not be A/B tested."
       ]
     },
     {
@@ -53,13 +53,12 @@
       "startDate": "2020-11-09",
       "endDate": "2021-07-09",
       "highlights": [
-        "Top 10 YC startup. On demand delivery and financial services for Latin America",
-        "Worked with data from more than 150.000 partner brands and 10.000.000 users across 9 Latin American countries",
+        "Worked with data from more than 150K partner brands and 10M users across 9 Latin American countries",
         "Crafted a new metric for measuring if a new vendors would be successful in the marketplace.",
         "Lead an effort to implement the data side of a methodology for putting analysis on the data warehouse in a productive setting, to be accessed from external systems (inverse ETL).",
         "Worked as a bridge between the business and product teams, helping brainstorm features for different products and running data analysis for prioritizing them.",
         "Modeled the impact that different promotions on the marketplace had on important output metrics, using methods to proximate causality inference with observational data.",
-        "Built a segmentation model for our more than 150.000 partner brands."
+        "Built a segmentation model for our more than 150K partner brands."
       ]
     },
     {
@@ -71,12 +70,11 @@
       "startDate": "2019-05-06",
       "endDate": "2020-11-06",
       "highlights": [
-        "Colombian branch of the biggest pension fund conglomerate in Latin America.",
-        "Worked with demographic and financial data from more than 4.000.000 clients.",
+        "Worked with demographic and financial data from more than 4M clients.",
         "Helped oversee the migration from a legacy system to a cloud native data warehouse (Google Big Query).",
-        "Developed and put into production a model that transcribed and measured death time in 2.000 calls daily.",
+        "Developed and productionized a system for analyzing 60K monthly call recordings from our costumer service center, including a voice to text model.",
         "Used a geographical information system software to analyze the geographic location from our clients and prioritize the location of our offices and service partners across the country.",
-        "Worked along with actuaries developing a machine learning model used on the pricing of an insurance policy worth $250MM USD a year."
+        "Worked along with actuaries developing a machine learning model used on the pricing of an insurance policy worth $250M USD a year."
       ]
     },
     {
@@ -88,9 +86,8 @@
       "startDate": "2017-07-26",
       "endDate": "2018-11-23",
       "highlights": [
-        "Latin American company focused on software development and digital transformation consulting for global clients.",
-        "Worked as an iOS developer on big consumer applications for diverse clients.",
-        "Implemented the required instrumentation code to use Adobe Analytics on the Disney parks iOS applications.",
+        "iOS developer on big consumer applications for diverse clients.",
+        "Implemented behavioral tracking with Adobe Analytics across diverse Disney iOS applications.",
         "Developed an MVP for an analytics based in-app messaging system to be used across different Disney's consumer applications.",
         "Migrated some features on the Disney parks application from Model-View-Controller to VIPER architecture."
       ]
@@ -104,11 +101,9 @@
       "startDate": "2016-06-09",
       "endDate": "2016-12-17",
       "highlights": [
-        "Applied optics research group from one of the top research universities in Colombia.",
-        "Worked as a research assistant on different optics projects.",
-        "Wrote software interfaces for specialized optics hardware used in different physical experiments.",
-        "Wrote code for analyzing data gathered from different sensors.",
-        "Built custom hardware for controlling actuators used on laboratory set-ups."
+        "Built custom hardware for controlling actuators used on laboratory set-ups.",
+        "Built software interfaces for specialized optics hardware used in different physical experiments.",
+        "Gathered and analyzed data from experimantal setups to test research hypothesis."
       ]
     }
   ],
