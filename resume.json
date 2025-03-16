@@ -128,19 +128,41 @@
     "keywords": [
       "A/B Testing",
       "Statistical Analysis",
-      "Experimentation"
+      "Experimentation",
+      "Behavioral Analytics"
     ]
   },
   {
-    "name": "SQL & data warehousing",
+    "name": "Data Wrangling",
     "level": "Highly proficient",
     "keywords": [
       "BigQuery",
       "Snowflake",
       "Airflow",
-      "dbt"
+      "dbt",
+      "Pandas"
     ]
   },
+  {
+    "name": "Data Visualization & Dashboarding",
+    "level": "Highly proficient",
+    "keywords": [
+      "Looker",
+      "Tableau",
+      "PowerBi",
+      "Evidence.dev",
+      "Plotlty"
+    ]
+  },
+  {
+    "name": "Programming Languagues,
+    "level": "Proficient",
+    "keywords": [
+      "SQL,
+      "Python",
+      "Swift",
+      "Objective-C"
+    ]
   {
     "name": "Machine Learning",
     "level": "Proficient",
