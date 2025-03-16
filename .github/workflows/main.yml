@@ -18,9 +18,6 @@ jobs:
         with:
           node-version: 18  # Change this to your required Node.js version
 
-      - name: Install dependencies
-        run: npm install
-
       - name: Install required package
         run: npm install resumed jsonresume-theme-onepage-plus
 
