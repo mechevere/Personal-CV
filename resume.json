@@ -152,7 +152,6 @@
   },
   {
     "name": "Programming Languages",
-    "level": "Proficient",
     "keywords": [
       "SQL",
       "Python",
@@ -162,7 +161,6 @@
   },
   {
     "name": "Machine Learning",
-    "level": "Proficient",
     "keywords": [
       "scikit-learn",
       "Prophet",
