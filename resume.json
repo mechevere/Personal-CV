@@ -123,7 +123,6 @@
 "skills": [
   {
     "name": "Product Data Science",
-    "level": "Highly proficient",
     "keywords": [
       "A/B Testing",
       "Statistical Analysis",
@@ -133,7 +132,6 @@
   },
   {
     "name": "Data Wrangling",
-    "level": "Highly proficient",
     "keywords": [
       "BigQuery",
       "Snowflake",
@@ -144,7 +142,6 @@
   },
   {
     "name": "Data Visualization & Dashboarding",
-    "level": "Highly proficient",
     "keywords": [
       "Looker",
       "Tableau",
