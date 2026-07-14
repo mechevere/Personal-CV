@@ -36,6 +36,7 @@
       "url": "https://www.vinted.com/about",
       "startDate": "2025-08-15",
       "highlights": [
+         "Implemented winsorization for metrics across the internal experimentation platform, improving statistical power and reducing required runtimes for A/B tests company-wide."
       ]
     },
     {
