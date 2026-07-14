@@ -28,6 +28,16 @@
     ]
   },
   "work": [
+      {
+      "name": "Vinted",
+      "location": "Berlin, Germany",
+      "summary": "European peer to peer marketplace with more than 50M users.",
+      "position": "Senior Decision Scientist",
+      "url": "https://www.vinted.com/about",
+      "startDate": "2025-08-15",
+      "highlights": [
+      ]
+    },
     {
       "name": "Delivery Hero",
       "location": "Berlin, Germany",
@@ -35,6 +45,7 @@
       "position": "Senior Product Analyst",
       "url": "https://www.deliveryhero.com/",
       "startDate": "2021-12-01",
+      "endDate": "2025-07-31",
       "highlights": [
         "Designed and evaluated 110+ experiments, driving an incremental GMV impact of ~€42M",
         "Enabled reliable concurrent experiments, quadrupling experimentation velocity within the search team.",
