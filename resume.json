@@ -36,7 +36,7 @@
       "url": "https://www.vinted.com/about",
       "startDate": "2025-08-15",
       "highlights": [
-        "Implemented winsorization for metrics across the internal experimentation platform, improving statistical power and reducing required runtimes for A/B tests company-wide.",
+        "Developed statistical methods that run natively in BigQuery for Vinted’s experimentation platform, accelerating product experimentation.",
         "Designed an approach for A/B testing ML models in collaboration with engineers and data scientists, adopted as the standard across the domain.",
         "Led a ground-truth analysis quantifying malicious users bypassing existing detection systems and benchmarking ML detection signals against them, shaping the team's roadmap and OKRs in partnership with product management."
       ]
