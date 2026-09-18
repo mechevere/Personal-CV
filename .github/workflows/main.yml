@@ -27,8 +27,14 @@ jobs:
       - name: Install renderer and theme
         run: npm install resumed jsonresume-theme-onepage-plus
 
+      - name: Enable education notes in theme
+        run: node scripts/prepare-theme.cjs
+
       - name: Generate CV HTML
         run: npx resumed render resume.json --theme jsonresume-theme-onepage-plus
+
+      - name: Verify generated copy
+        run: node scripts/verify-cv.cjs
 
       - name: Upload generated HTML
         uses: actions/upload-artifact@v4
