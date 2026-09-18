@@ -24,6 +24,10 @@
         "network": "GitHub",
         "username": "mechevere",
         "url": "https://www.github.com/mechevere"
+      },
+      {
+        "network": "Website",
+        "url": "https://mechevere.github.io/"
       }
     ]
   },
