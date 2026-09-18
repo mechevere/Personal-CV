@@ -1,13 +1,19 @@
-name: Generate HTML with Node.js
+name: Generate CV HTML
 
 on:
   push:
     branches:
       - master
+      - builder-framing
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   generate-html:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -16,16 +22,17 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18  # Change this to your required Node.js version
+          node-version: 22
 
-      - name: Install required package
+      - name: Install renderer and theme
         run: npm install resumed jsonresume-theme-onepage-plus
 
-      - name: Run command to generate HTML
+      - name: Generate CV HTML
         run: npx resumed render resume.json --theme jsonresume-theme-onepage-plus
 
-      - name: Upload generated HTML file
+      - name: Upload generated HTML
         uses: actions/upload-artifact@v4
         with:
-          name: generated-html
+          name: cv-${{ github.ref_name }}-${{ github.run_number }}
           path: resume.html
+          if-no-files-found: error
