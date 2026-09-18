@@ -7,5 +7,14 @@ const partialPath = path.join(themeDir, 'partials', 'education.hbs');
 const partial = fs.readFileSync(partialPath, 'utf8');
 const marker = "{{#unless @last}}";
 if (!partial.includes(marker)) throw new Error('Education template changed; review summary placement.');
-fs.writeFileSync(partialPath, partial.replace(marker,
+if (!partial.includes("class='education-summary'")) fs.writeFileSync(partialPath, partial.replace(marker,
   "{{#if summary}}<p class='education-summary'>{{summary}}</p>{{/if}}\n" + marker));
+
+const templatePath = path.join(themeDir, 'resume.hbs');
+const template = fs.readFileSync(templatePath, 'utf8');
+const education = '{{> education }}';
+const work = '{{> work }}';
+if (!template.includes(education) || !template.includes(work)) {
+  throw new Error('Resume template changed; review section order.');
+}
+fs.writeFileSync(templatePath, template.replace(education, '').replace(work, education + '\n\t\t' + work));
