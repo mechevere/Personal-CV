@@ -83,9 +83,9 @@
       "startDate": "2019-05-06",
       "endDate": "2020-11-06",
       "highlights": [
-        "Utilized demographic and financial data from over 4M clients to drive strategic insights.",
+        "Presented to senior executives and the board of directors on how new technologies could support the company’s digital transformation strategy.",
         "Assisted in the migration from a legacy data platform to a cloud-native data warehouse on Google's BigQuery.",
-        "Developed and productionized a system for analyzing 60K monthly call recordings, incorporating both a voice-to-text and a digital signal processing model to enhance service quality.",
+        "Built an end-to-end system using Google Cloud Speech-to-Text to transcribe 60K customer calls per month, supporting service quality analysis.",
         "Leveraged GIS software to analyze client geographic data, optimizing the placement of offices and service partners nationwide.",
         "Collaborated with actuaries to build a machine learning model for pricing an insurance policy valued at $250M USD annually."
       ]
