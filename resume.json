@@ -142,41 +142,45 @@
   "publications": [],
 "skills": [
   {
-    "name": "Product Data Science",
+    "name": "Data",
     "keywords": [
-      "A/B Testing",
-      "Statistical Analysis",
       "Experimentation",
-      "Behavioral Analytics",
-      "Causal Inference"
-    ]
-  },
-  {
-    "name": "Data Wrangling",
-    "keywords": [
+      "Causal inference",
+      "Data pipelines",
       "BigQuery",
-      "Snowflake",
-      "Airflow",
       "dbt",
-      "Pandas"
+      "Airflow",
+      "Looker"
     ]
   },
   {
-    "name": "Data Visualization & Dashboarding",
+    "name": "Software development",
     "keywords": [
-      "Looker",
-      "Tableau",
-      "Power BI",
-      "Evidence.dev"
-    ]
-  },
-  {
-    "name": "Programming Languages",
-    "keywords": [
-      "SQL",
+      "Application development",
+      "API integrations",
       "Python",
+      "SQL",
       "Swift",
-      "Objective-C"
+      "Claude Code"
+    ]
+  },
+  {
+    "name": "AI & agents",
+    "keywords": [
+      "AI assistant integrations",
+      "Agent design",
+      "Tool integration"
+    ]
+  },
+  {
+    "name": "Cloud",
+    "keywords": [
+      "Google Cloud",
+      "BigQuery",
+      "Pub/Sub",
+      "Cloud Speech-to-Text",
+      "Service integration",
+      "Cost optimization"
     ]
   }
 ],
