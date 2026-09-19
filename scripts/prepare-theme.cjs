@@ -14,7 +14,8 @@ const templatePath = path.join(themeDir, 'resume.hbs');
 const template = fs.readFileSync(templatePath, 'utf8');
 const education = '{{> education }}';
 const work = '{{> work }}';
-if (!template.includes(education) || !template.includes(work)) {
+const skills = '{{> skills }}';
+if (!template.includes(education) || !template.includes(work) || !template.includes(skills)) {
   throw new Error('Resume template changed; review section order.');
 }
-fs.writeFileSync(templatePath, template.replace(education, '').replace(work, education + '\n\t\t' + work));
+fs.writeFileSync(templatePath, template.replace(education, '').replace(skills, '').replace(work, education + '\n\t\t' + skills + '\n\t\t' + work));
