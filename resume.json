@@ -76,7 +76,7 @@
       "highlights": [
         "Leveraged data from over 150K partner brands and 10M users across 9 Latin American countries to derive actionable insights.",
         "Developed an innovative metric to predict vendor success in the marketplace, informing strategic decisions.",
-        "Led the implementation of an inverse ETL process, integrating analytical insights into the data warehouse for seamless external access.",
+        "Led the implementation of a reverse ETL pipeline to move insights from the data warehouse into a new CRM, making them available to business teams.",
         "Collaborated with business and product teams to co-create features and prioritize them through data-driven analysis.",
         "Designed and deployed a segmentation model to optimize partner brand targeting and enhance marketplace strategies."
         ]
