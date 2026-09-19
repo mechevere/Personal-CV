@@ -19,3 +19,21 @@ if (!template.includes(education) || !template.includes(work) || !template.inclu
   throw new Error('Resume template changed; review section order.');
 }
 fs.writeFileSync(templatePath, template.replace(education, '').replace(skills, '').replace(work, education + '\n\t\t' + skills + '\n\t\t' + work));
+
+function updatePartial(name, transform) {
+  const file = path.join(themeDir, 'partials', name + '.hbs');
+  fs.writeFileSync(file, transform(fs.readFileSync(file, 'utf8')));
+}
+updatePartial('basics', text => text.replace(
+  '{{#if city}}{{city}}{{/if}}{{#if region}}, {{region}}{{/if}}{{#if countryCode}}, {{countryCode}}{{/if}}',
+  '{{#if city}}{{city}}{{/if}}{{#if countryCode}}, {{#if countryName}}{{countryName}}{{else}}{{countryCode}}{{/if}}{{/if}}'
+));
+updatePartial('education', text => text.replace('{{studyType}} {{/if}} - ', '{{studyType}} {{/if}}'));
+updatePartial('languages', text => text.replace(
+  /<span class='language'>[\s\S]*?{{#unless @last}}<span>,<\/span>{{\/unless}}/,
+  "<span class='language'>{{language}}{{#if fluency}} <em>({{fluency}})</em>{{/if}}</span>{{#unless @last}}, {{/unless}}"
+));
+updatePartial('interests', text => text.replace(
+  /{{#each resume.interests}}[\s\S]*?\n\t\t{{\/each}}/,
+  "{{#each resume.interests}}{{#if keywords.length}}{{#each keywords}}{{.}}{{#unless @last}}, {{/unless}}{{/each}}{{else}}{{name}}{{/if}}{{#unless @last}}, {{/unless}}{{/each}}"
+));
